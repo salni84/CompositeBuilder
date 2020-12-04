@@ -8,6 +8,9 @@ public class CommentNode extends AttributedCompositeNode {
   private CommentNode(String comment) {
     super();
     this.comment = comment;
+
+
+
   }
 
   @Override
