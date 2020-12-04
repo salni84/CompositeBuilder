@@ -3,7 +3,7 @@ package ch.ibw;
 import ch.ibw.visitor.CompositeVisitor;
 
 public class CommentNode extends AttributedCompositeNode {
-  public String comment;
+  private String comment;
 
   private CommentNode(String comment) {
     super();
